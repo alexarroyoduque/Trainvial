@@ -20,7 +20,7 @@ Si el jugador responde correctamente la pregunta de meta habrá completado el ju
 El juego lee datos de diferentes JSON:
 
 - El tablero se construye a partir de un JSON de casillas. Cada casilla tiene:
- - tipo: Puede ser salida*, deportes, ocio, cultura o meta*.
+- tipo: Puede ser salida*, deportes, ocio, cultura o meta*.
  - isActivo: Se usa para saber si es la casilla actual del jugador.
  - posible: Se usa para saber si el jugador tras haber lanzado el dado puede desplazarse a dicha casilla.
  - isQuesito: Si es true significa que es una casilla en la que el jugador puede ganar un quesito.
