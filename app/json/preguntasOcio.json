@@ -1,0 +1,107 @@
+[
+    {
+        "tipo": "ocio", 
+        "pregunta": "¿Qué edifcio escaló King-kong?", 
+        "opcion1": "Empire State Building", 
+        "opcion2": "Chrysler",
+        "correcta": "Empire State Building"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "¿Qué es un 'ewok'?", 
+        "opcion1": "Un libro en formato digital", 
+        "opcion2": "Un ser de 'La guerra de las Galaxias'",
+        "correcta": "Un ser de 'La guerra de las Galaxias'"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "¿A qué juegan Oliver y Benji?", 
+        "opcion1": "Fútbol", 
+        "opcion2": "Baloncesto",
+        "correcta": "Fútbol"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "¿Quiénes tenían nombres de artistas?", 
+        "opcion1": "Las tortugas ninja", 
+        "opcion2": "Los simpsons",
+        "correcta": "Las tortugas ninja"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "¿Qué mascota ideó Homer para los JJOO?", 
+        "opcion1": "Ruendín", 
+        "opcion2": "Muellín",
+        "correcta": "Muellín"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "Lady Gaga le canta a:", 
+        "opcion1": "Alejandro", 
+        "opcion2": "Matías",
+        "correcta": "Alejandro"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "¿Con cuantos años murió Michael Jackson?", 
+        "opcion1": "55 años", 
+        "opcion2": "50 años",
+        "correcta": "50 años"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "¿De dónde era Bob Marley?", 
+        "opcion1": "Jamaica", 
+        "opcion2": "India",
+        "correcta": "Jamaica"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "¿Quién forjó el anillo único?", 
+        "opcion1": "Sauron", 
+        "opcion2": "Isildur",
+        "correcta": "Sauron"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "Super-man es débil a:", 
+        "opcion1": "La kriptonita", 
+        "opcion2": "El mercurio",
+        "correcta": "La kriptonita"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "La identidad de iron-man es:", 
+        "opcion1": "Tony Stark", 
+        "opcion2": "Robbie Stark",
+        "correcta": "Tony Stark"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "La identidad de Robin, el compañero de Batman es:", 
+        "opcion1": "Alex Mayson", 
+        "opcion2": " Dick Grayson",
+        "correcta": " Dick Grayson"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "Logo de apple", 
+        "opcion1": "Manzana", 
+        "opcion2": "Ventana",
+        "correcta": "Manzana"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "Logo de linux", 
+        "opcion1": "Pingüino", 
+        "opcion2": "Ventana",
+        "correcta": "Pingüino"
+    },
+    {
+        "tipo": "ocio", 
+        "pregunta": "Logo de windows", 
+        "opcion1": "Ventana", 
+        "opcion2": "Manzana",
+        "correcta": "Ventana"
+    }
+]

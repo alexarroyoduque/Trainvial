@@ -1,0 +1,107 @@
+[
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿Quién es el tiburón de Baltimore?", 
+        "opcion1": "Michael Phelps", 
+        "opcion2": "Peter Vanderkaay",
+        "correcta": "Michael Phelps"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿En qué año nació Michael Schumacher", 
+        "opcion1": "1975", 
+        "opcion2": "1969",
+        "correcta": "1969"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿De dónde es originario el curling?", 
+        "opcion1": "Escocia", 
+        "opcion2": "Finlandia",
+        "correcta": "Escocia"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿Qué portero ganó un balón de oro?", 
+        "opcion1": "Andryi Laven", 
+        "opcion2": "Lev Yashin",
+        "correcta": "Lev Yashin"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿Quién fundó el equipo de fútbol Fussballclub Zürich?", 
+        "opcion1": "Joan Gamper", 
+        "opcion2": "Sergei Rusanov",
+        "correcta": "Joan Gamper"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿Cómo se conoce al polo con elefantes?", 
+        "opcion1": "Mahouts polo", 
+        "opcion2": "Elephant polo",
+        "correcta": "Elephant polo"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿Dónde se celebró la Eurocopa de 2008?", 
+        "opcion1": "Austria y Suiza", 
+        "opcion2": "Alemania",
+        "correcta": "Austria y Suiza"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿En qué año nació el tenista Rafa Nadal?", 
+        "opcion1": "1982", 
+        "opcion2": "1986",
+        "correcta": "1986"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿En qué año nació el tenista Roger Federer?", 
+        "opcion1": "1981", 
+        "opcion2": "1976",
+        "correcta": "1981"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿Cuál es la edad mínima para competir en los JJOO?", 
+        "opcion1": "16 años", 
+        "opcion2": "No hay",
+        "correcta": "16 años"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿Cuál es la edad máxima para competir en los JJOO?", 
+        "opcion1": "No hay", 
+        "opcion2": "70 años",
+        "correcta": "No hay"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿Dónde fueron los primeros JJOO?", 
+        "opcion1": "Roma", 
+        "opcion2": "Grecia",
+        "correcta": "Grecia"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿Cuántos Tours le han quitado a Amstrong por doparse?", 
+        "opcion1": "Siete", 
+        "opcion2": "Cinco",
+        "correcta": "Siete"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "¿Quién marcó el gol en la final del mundial de fútbol de 2010?", 
+        "opcion1": "Iniesta", 
+        "opcion2": "Torres",
+        "correcta": "Iniesta"
+    },
+    {
+        "tipo": "deportes", 
+        "pregunta": "Mundiales ganados por F. Alonso", 
+        "opcion1": "Dos", 
+        "opcion2": "Cinco",
+        "correcta": "Dos"
+    }
+]

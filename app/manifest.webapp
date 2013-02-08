@@ -1,0 +1,12 @@
+{
+  "name": "Trainvial",
+  "description": "Angular Game Demo",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "img/trainvial/logo-128.png"
+  },
+  "developer": {
+    "name": "Alejandro Arroyo Duque"
+  },
+  "default_locale": "es"
+}

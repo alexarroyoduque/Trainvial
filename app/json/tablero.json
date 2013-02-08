@@ -1,0 +1,68 @@
+[
+    {
+        "tipo": "salida", 
+        "isActivo": false, 
+        "posible": false,
+        "isQuesito": false
+    },
+    {
+        "tipo": "deportes", 
+        "isActivo": false, 
+        "posible": false,
+        "isQuesito": false
+    },
+    {
+        "tipo": "cultura", 
+        "isActivo": false, 
+        "posible": false,
+        "isQuesito": true
+    },
+    {
+        "tipo": "ocio", 
+        "isActivo": false, 
+        "posible": false,
+        "isQuesito": false
+    },
+    {
+        "tipo": "cultura", 
+        "isActivo": false, 
+        "posible": false,
+        "isQuesito": false
+    },
+    {
+        "tipo": "ocio", 
+        "isActivo": false, 
+        "posible": false,
+        "isQuesito": true
+    },
+    {
+        "tipo": "deportes", 
+        "isActivo": false, 
+        "posible": false,
+        "isQuesito": false
+    },
+    {
+        "tipo": "ocio", 
+        "isActivo": false, 
+        "posible": false,
+        "isQuesito": false
+    },
+    {
+        "tipo": "deportes", 
+        "isActivo": false, 
+        "posible": false,
+        "isQuesito": true
+    },
+    {
+        "tipo": "cultura", 
+        "isActivo": false, 
+        "posible": false,
+        "isQuesito": false
+    },
+    {
+        "tipo": "meta", 
+        "isActivo": false, 
+        "posible": false,
+        "isQuesito": false
+    }
+]

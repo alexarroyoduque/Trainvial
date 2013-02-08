@@ -1,0 +1,107 @@
+[
+    {
+        "tipo": "cultura", 
+        "pregunta": "¿Quién 'sabía que no sabía nada'?", 
+        "opcion1": "Sócrates", 
+        "opcion2": "Aristóteles",
+        "correcta": "Sócrates"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "¿En qué lugar del cuerpo se produce la insulina?", 
+        "opcion1": "Duodeno", 
+        "opcion2": "Páncreas",
+        "correcta": "Páncreas"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "¿Con qué se fabricaba el pergamino?", 
+        "opcion1": "Con piel de animales", 
+        "opcion2": "Con hojas de arbustos",
+        "correcta": "Con piel de animales"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "¿Quién completó la vuelta al mundo?", 
+        "opcion1": "Magallanes", 
+        "opcion2": "Juan Sebastián Elcano",
+        "correcta": "Juan Sebastián Elcano"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "Uno de los creadores de Facebook es:", 
+        "opcion1": "Mark Zuckerberg", 
+        "opcion2": "Larry Page",
+        "correcta": "Mark Zuckerberg"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "¿Qué significa la 'a' en el término sida?", 
+        "opcion1": "Adquirida", 
+        "opcion2": "Ampliada",
+        "correcta": "Adquirida"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "¿Cual es el pueblo ficticio descrito en 100 años de soledad, de García Márquez?", 
+        "opcion1": "Vetusta", 
+        "opcion2": "Macondo",
+        "correcta": "Macondo"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "¿De qué material es la información genética del ADN?", 
+        "opcion1": "Péptidos", 
+        "opcion2": "Nucleótidos",
+        "correcta": "Nucleótidos"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "La obra de Shakespeare Romeo y Julieta está ambientada en... ", 
+        "opcion1": "Verona", 
+        "opcion2": "Londres",
+        "correcta": "Verona"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "¿Dónde hay más fruta?", 
+        "opcion1": "En el zumo de fruta", 
+        "opcion2": "En el néctar de fruta",
+        "correcta": "En el zumo de fruta"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "¿Cómo se llamaba el barco de Charles Darwin?", 
+        "opcion1": "Twain", 
+        "opcion2": "Beagle",
+        "correcta": "Beagle"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "Autor de la Ilíada", 
+        "opcion1": "Homero", 
+        "opcion2": "Ovidio",
+        "correcta": "Homero"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "Escritor de la isla del tesoro", 
+        "opcion1": "Robert Louis Stevenson", 
+        "opcion2": "Lord Byron",
+        "correcta": "Robert Louis Stevenson"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "El primer viaje realizado por Cristobal Collón fue con:", 
+        "opcion1": "Dos carabelas y una nao", 
+        "opcion2": "Tres carabelas",
+        "correcta": "Dos carabelas y una nao"
+    },
+    {
+        "tipo": "cultura", 
+        "pregunta": "Un triángulo con sus lados y ángulos iguales es:", 
+        "opcion1": "Equilatero", 
+        "opcion2": "Isósceles",
+        "correcta": "Equilatero"
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "tipo": "meta", 
+        "pregunta": "El plátano es originario de:", 
+        "opcion1": "Asia", 
+        "opcion2": "Europa",
+        "correcta": "Asia"
+    },
+    {
+        "tipo": "meta", 
+        "pregunta": "Duración de la primera guerra mundial:", 
+        "opcion1": "1914-1918", 
+        "opcion2": "1910-1914",
+        "correcta": "1914-1918"
+    },
+    {
+        "tipo": "meta", 
+        "pregunta": "Lunas de Urano:", 
+        "opcion1": "27", 
+        "opcion2": "153",
+        "correcta": "27"
+    },
+     {
+        "tipo": "meta", 
+        "pregunta": "¿De quién es la canción 'We Will Rock You?'", 
+        "opcion1": "Queen", 
+        "opcion2": "Rolling Stones",
+        "correcta": "Queen"
+    },
+    {
+        "tipo": "meta", 
+        "pregunta": "Tiene aproximadamente 550 pelos:", 
+        "opcion1": "Ceja", 
+        "opcion2": "Nariz",
+        "correcta": "Ceja"
+    },
+    {
+        "tipo": "meta", 
+        "pregunta": "¿De quien es la cancion Imagine?", 
+        "opcion1": "John Lennon", 
+        "opcion2": "Elton John",
+        "correcta": "John Lennon"
+    },
+    {
+        "tipo": "meta", 
+        "pregunta": "¿Cuántos dedos tienen en cada pie los Simpsons?", 
+        "opcion1": "Cinco", 
+        "opcion2": "Cuatro",
+        "correcta": "Cinco"
+    },
+     {
+        "tipo": "meta", 
+        "pregunta": "¿Cuántos dedos tienen en cada mano los Simpsons?", 
+        "opcion1": "Cuatro", 
+        "opcion2": "Cinco",
+        "correcta": "Cuatro"
+    },
+    {
+        "tipo": "meta", 
+        "pregunta": "¿Quién introdujo el término greguerias?", 
+        "opcion1": "Ramón Gómez", 
+        "opcion2": "Jorge Guillén",
+        "correcta": "Ramón Gómez"
+    },
+     {
+        "tipo": "meta", 
+        "pregunta": "¿Qué animal se representa en la bandera de Gales?", 
+        "opcion1": "Dragón", 
+        "opcion2": "León",
+        "correcta": "Dragón"
+    },
+    {
+        "tipo": "meta", 
+        "pregunta": "¿Qué bandera no tiene símbolo?", 
+        "opcion1": "Mexico", 
+        "opcion2": "Colombia",
+        "correcta": "Colombia"
+    },
+     {
+        "tipo": "meta", 
+        "pregunta": "El padre de Harry Potter se llama:", 
+        "opcion1": "Michael", 
+        "opcion2": "James",
+        "correcta": "James"
+    },
+    {
+        "tipo": "meta", 
+        "pregunta": "Star wars episodio V se estrenó en:", 
+        "opcion1": "1985", 
+        "opcion2": "1980",
+        "correcta": "1980"
+    },
+    {
+        "tipo": "meta", 
+        "pregunta": "Famoso restaurante de Ferran Adriá", 
+        "opcion1": "Mugaritz", 
+        "opcion2": "El Bulli",
+        "correcta": "El Bulli"
+    },
+    {
+        "tipo": "meta", 
+        "pregunta": "Si te subes a un 'cayman' qué marca de coches es:", 
+        "opcion1": "Ferrari", 
+        "opcion2": "Porsche",
+        "correcta": "Porsche"
+    }
+]
