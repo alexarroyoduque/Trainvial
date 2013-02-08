@@ -13,6 +13,15 @@ La funcionalidad es bastante sencilla de entender. El jugador lanza un dado virt
 El objetivo es conseguir los tres "quesitos" que dan acceso a la meta.
 Si el jugador responde correctamente la pregunta de meta habrá completado el juego.
 
+## Ejecutar la aplicación
+Para poder disfrutar de la aplicación es necesario hacerlo desde un servidor, esto se puede hacer de varias formas:
+- Se puede ejecutar desde cualquier localhost.
+- Este proyecto incluye una carpeta llamada scripts que contien un fichero web-server.js basado en node que arranca un localhost.
+ - Para usar este web-server.js es necesario instalar nodejs en el equipo.
+ - Tras instalar node se puede ejecutar el web-server.js desde la carpeta del repositorio "node scripts/web-script.js"
+ - Ahora escribiendo en el navegador "localhost:8000/app/index.html" se debería visualizar la aplicación.
+
+
 ## Funcionamiento
 
 ### Modelo de datos
