@@ -3,6 +3,6 @@
 
 /* App Module */
 // declare a moduleApp
-angular.module('myApp', ['controllerModule', 'filterModule']);
+angular.module('myApp', ['controllerModule', 'filterModule', 'directiveModule']);
 
 }(this, this.angular));

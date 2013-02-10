@@ -61,9 +61,9 @@ function TrainvialCtrl($scope, $http) {
   $scope.valorDado = 'Lance para empezar';
   $scope.mensaje = "Lance el dado";
   $scope.resultado = "Lance el dado";
-  $scope.quesitoDeportes = 'No conseguido';
-  $scope.quesitoCultura = 'No conseguido';
-  $scope.quesitoOcio = 'No conseguido';
+  $scope.quesitoDeportes = false;
+  $scope.quesitoCultura = false;
+  $scope.quesitoOcio = false;
   $scope.mostrarPanelPregunta = false;
   $scope.preguntasCorrectas = 0;
   $scope.preguntasIncorrectas = 0;
@@ -124,7 +124,7 @@ function TrainvialCtrl($scope, $http) {
       casillaPosibleAdelante = casillaActual+$scope.valorDado+1;
       casillaPosibleAtras=casillaActual-$scope.valorDado+1;
       if(casillaPosibleAdelante<=11) {
-        if(casillaPosibleAdelante == 11 && $scope.quesitoDeportes == 'Conseguido' && $scope.quesitoCultura == 'Conseguido' && $scope.quesitoOcio == 'Conseguido') {
+        if(casillaPosibleAdelante == 11 && $scope.quesitoDeportes == true && $scope.quesitoCultura == true && $scope.quesitoOcio == true) {
           $scope.casillasTablero[casillaPosibleAdelante-1].posible= true;
         }else if(casillaPosibleAdelante<=10) {
           $scope.casillasTablero[casillaPosibleAdelante-1].posible= true;
@@ -176,11 +176,11 @@ function TrainvialCtrl($scope, $http) {
 
         if(preguntaQuesito == true) {
             if(tipoPregunta == 'deportes') {
-              $scope.quesitoDeportes='Conseguido';
+              $scope.quesitoDeportes=true;
             }else if(tipoPregunta == 'cultura') {
-              $scope.quesitoCultura='Conseguido';
+              $scope.quesitoCultura=true;
             }else
-              $scope.quesitoOcio='Conseguido';
+              $scope.quesitoOcio=true;
         }
       } else {
           $scope.mensaje = "Lance el dado";
@@ -190,7 +190,7 @@ function TrainvialCtrl($scope, $http) {
         }
 
         //Si tenemos los tres quesitos se puede acceder a la pregunta final
-        if ($scope.quesitoDeportes == 'Conseguido' && $scope.quesitoOcio == 'Conseguido' && $scope.quesitoCultura == 'Conseguido') {
+        if ($scope.quesitoDeportes == true && $scope.quesitoOcio == true && $scope.quesitoCultura == true) {
           $scope.preguntaFinalAcceso = true;
         }
 
@@ -227,9 +227,9 @@ function TrainvialCtrl($scope, $http) {
     $scope.valorDado = 'Lance para empezar';
     $scope.mensaje = "Lance el dado";
     $scope.resultado = "Lance el dado";
-    $scope.quesitoDeportes = 'No conseguido';
-    $scope.quesitoCultura = 'No conseguido';
-    $scope.quesitoOcio = 'No conseguido';
+    $scope.quesitoDeportes = false;
+    $scope.quesitoCultura = false;
+    $scope.quesitoOcio = false;
     $scope.mostrarPanelPregunta = false;
     $scope.preguntasCorrectas = 0;
     $scope.preguntasIncorrectas = 0;

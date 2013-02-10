@@ -1,0 +1,4 @@
+<div class="tableroContenedor clearfix">
+    <div class="casilla clearfix" ng-class="casilla.tipo | filtroCasilla:casilla.posible:casilla.isActivo:casilla.isQuesito:preguntaFinalAcceso" ng-click="hacerPregunta(($index+1))" ng-repeat="casilla in casillasTablero">{{casilla.tipo}}
+    </div>
+</div>

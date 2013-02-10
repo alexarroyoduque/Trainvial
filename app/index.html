@@ -1,122 +1,43 @@
 <!doctype html>
-
 <html lang="es" >
 <head>
-  <meta http-equiv="Content-Type: application/x-web-app-manifest+json" content="text/html; charset=utf-8"/>
-  <meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width'>
-  <title>Demo: Trainvial en AngularJS</title>
-  <link rel="shortcut icon" href="img/trainvial/favicon.ico">
-  <link href="img/trainvial/logo-128.png" sizes="128x128" rel="apple-touch-icon">
-  <link rel="stylesheet" href="css/add2home.css">
-  <script type="application/javascript" src="js/add2home.js"></script>
-  <script src="lib/angular/angular.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/filters.js"></script>
-  <script src="js/app.js"></script>
-
-  <link rel='stylesheet' href='css/app.css' TYPE='text/css'>
-  <link rel='stylesheet' href='css/bootstrap.css' TYPE='text/css'> 
+    <meta http-equiv="Content-Type: application/x-web-app-manifest+json; charset=ISO-8859-4" content="text/html; charset=utf-8"/>
+    <meta name='viewport' content='initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, width=device-width'>
+    <title>Demo: Trainvial en AngularJS</title>
+    <link rel="shortcut icon" href="img/trainvial/favicon.ico">
+    <link href="img/trainvial/logo-128.png" sizes="128x128" rel="apple-touch-icon">
+    <link rel="stylesheet" href="css/add2home.css">
+    <script type="application/javascript" src="js/add2home.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="js/app.js"></script>
+    <link rel='stylesheet' href='css/app.css' TYPE='text/css'>
+    <link rel='stylesheet' href='css/bootstrap.css' TYPE='text/css'> 
 
 </head>
 <body>
-<div class="container" ng-app="myApp">
-<a href="trainvial.html"><h1><small>Mini-Trainvial</small></h1></a>
-  <div class="hero-unit clearfix row row-fluid mini-trainvial" ng-controller="TrainvialCtrl">
-    <div class="panelInformativo clearfix">
-        <div class="panel">
-          <table class="table table-condensed" cellspacing="10">
-            <thead>
-              <tr>
-                <th>Quesito</th>
-                <th>Estado</th>
-              </tr>
-            </thead>
-            <tr>
-              <td>Deportes</td>
-              <td>{{quesitoDeportes}}</td>
-            </tr>
-            <tr>
-              <td>Cultura</td>
-              <td>{{quesitoCultura}}</td>
-            </tr>
-            <tr>
-              <td>Ocio</td>
-              <td>{{quesitoOcio}}</td>
-            </tr>
-          </table>
-          <button class="dado" ng-class="mensaje | habilitarDadoFilter" title="{{mensaje}}" ng-click="lanzarDado()">
-            <img ng-src="{{valorDado | valorDadoFilter}}" alt="{{valorDado}}"></img> 
-          </button>
-          <img ng-src="{{mensaje | mensajeFilter}}" alt="{{mensaje}}" class="imagenMensaje"></img>
-          <img ng-src="{{resultado | resultadoFilter}}" alt="{{resultado}}" class="imagenResultado"></img>
-        </div>
-        <div class="panel pregunta" ng-model="mostrarPanelPregunta" ng-show="mostrarPanelPregunta">
-          <form name="miFormulario" ng-submit="onSubmit()">
-            <fieldset>
-              <legend>Pregunta</legend>
-              <p>{{atencionPregunta}}</p>
-              <div class="control-group">
-                <input type="radio" id="respuesta1" name="respuesta" value="{{respuesta1}}" ng-model="respuesta"> 
-                <label class="control-label btn btn-respuesta" for="respuesta1">{{respuesta1}}</label>
-              </div>
-              <div class="control-group">
-                <input type="radio" id="respuesta2" name="respuesta" value="{{respuesta2}}" ng-model="respuesta"> 
-                <label class="control-label btn btn-respuesta" for="respuesta2">{{respuesta2}}</label>
-              </div>
-              <br>
-              <button class="btn btn-primary pull-right" type="submit">Confirmar respuesta</button>
-              <hr>
-              <p class="respuestaElegida"><u><i>Ha elegido</i></u>: {{respuesta}}</p>
-              <fieldset>
-          </form>
-        </div>
-        <div class="panel mensajeJuegoCompleto" ng-show="juegoCompletado">
-          <p>Enhorabuena</p>
-          <p>Ha completado el juego</p>
-          <p>Gracias por jugar</p>
-          <img src="img/trainvial/tren.png" class="span6">
-        </div>
-      </div>
+  <div class="container" ng-app="myApp">
+    <a href="trainvial.html"><h1><small>Mini-Trainvial</small></h1></a>
 
-    <div class="tableroContenedor clearfix">
-      <div class="casilla clearfix" ng-class="casilla.tipo | filtroCasilla:casilla.posible:casilla.isActivo:casilla.isQuesito:preguntaFinalAcceso" ng-click="hacerPregunta(($index+1))" ng-repeat="casilla in casillasTablero">{{casilla.tipo}}</div>
+    <div class="hero-unit clearfix row row-fluid mini-trainvial" ng-controller="TrainvialCtrl">
+        <div class="panelInformativo clearfix">
+            <div panelpersonal></div> 
+            <div panelpregunta></div>
+            <div paneljuegocompleto></div>
+        </div>
+      
+        <div tablero></div>
+        
+        <div class="panelInformativo clearfix">
+            <div panelprogreso></div>   
+            <div paneldesarrollador></div> 
+        </div>
+
     </div>
 
-        <div class="panelInformativo clearfix">
-         <div class="panel clearfix">
-            <p>Preguntas acertadas: {{preguntasCorrectas}}</p>
-            <p>Preguntas falladas: {{preguntasIncorrectas}}</p>
-            <button class="btn btn-danger btn-large" title="Reiniciar partida" ng-click="reset()" >Reset</button>
-        </div>
-        <div class="panel panelPersonal">
-            <p>&copy; Alejandro Arroyo Duque</p>
-            <p>Gracias por jugar!</p>
-            <div class="row-fluid">
-              <ul class="thumbnails">
-                <li class="span3">
-                  <a href="mailto:alejandro.arroyoduque@gmail.com" class="thumbnail">
-                    <img ng-src="img/trainvial/auxiliar-gmail.png" alt="gmail">
-                  </a>
-                </li>
-                <li class="span3">
-                  <a href="#" class="thumbnail">
-                    <img ng-src="img/trainvial/auxiliar-github.png" alt="github">
-                  </a>
-                </li>
-                <li class="span3">
-                  <a href="#" class="thumbnail">
-                    <img ng-src="img/trainvial/auxiliar-download.png" alt="download">
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <small><a href="mailto:alejandro.arroyoduque@gmail.com">alejandro.arroyoduque@gmail.com</a></small><br>
-            <small><a href="https://github.com/explore">github</a></small><br>
-            <small><a href="https://github.com/explore">download</a></small>
-        </div>
-      </div>
   </div>
-</div>
-
 </body>
 </html>
+

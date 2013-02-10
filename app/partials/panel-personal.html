@@ -1,0 +1,29 @@
+<div class="panel">
+	<table class="table table-condensed" cellspacing="10">
+    	<thead>
+      		<tr>
+        		<th>Quesito</th>
+        		<th>Estado</th>
+      		</tr>
+    	</thead>
+    	<tbody>
+    		<tr>
+	    		<td>Deportes</td>
+	      	    <td ng-class="quesitoDeportes | quesitoClaseFilter">{{quesitoDeportes | quesitoEstadoFilter}}</td>
+    		</tr>
+	    	<tr>
+	      		<td>Cultura</td>
+	      		<td ng-class="quesitoCultura | quesitoClaseFilter">{{quesitoCultura | quesitoEstadoFilter}}</td>
+	    	</tr>
+	    	<tr>
+	      		<td>Ocio</td>
+	      		<td ng-class="quesitoOcio | quesitoClaseFilter">{{quesitoOcio | quesitoEstadoFilter}}</td>
+	    	</tr>
+    	</tbody>
+	</table>
+  	<button class="dado" ng-class="mensaje | habilitarDadoFilter" title="{{mensaje}}" ng-click="lanzarDado()">
+   		<img ng-src="{{valorDado | valorDadoFilter}}" alt="{{valorDado}}"></img> 
+  	</button>
+  	<img ng-src="{{mensaje | mensajeFilter}}" alt="{{mensaje}}" class="imagenMensaje"></img>
+  	<img ng-src="{{resultado | resultadoFilter}}" alt="{{resultado}}" class="imagenResultado"></img>
+</div>

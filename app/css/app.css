@@ -2,8 +2,8 @@
 
 
 .mini-trainvial{
-   background: url('../img/trainvial/trainvial.png') no-repeat right top;
-   background-size: 35%;
+   background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, url('../img/trainvial/trainvial.png') no-repeat right top;;
+   background-size: 11%, 28%;
 }
 
 .casilla{
@@ -174,6 +174,11 @@
 .panel p{
   font-size: 15px;
 }
+
+.quesitoConseguido{
+  color: rgb(82, 255, 82);
+}
+
 .panel.pregunta{
   background: #1d8e78; /* Old browsers */
   background: -moz-linear-gradient(top,  #1d8e78 0%, #30b58f 100%); /* FF3.6+ */
@@ -235,17 +240,17 @@ input[type="radio"]:checked+label.btn-respuesta:hover{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c79810', endColorstr='#eab92d',GradientType=0 ); /* IE6-9 */
 }
 
-.panel.panelPersonal{
+.panel.panelDesarrollador{
   color:#583860;
-  background: #b2b2b2; /* Old browsers */
-  background: -moz-linear-gradient(top,  #b2b2b2 0%, #e8e5e5 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b2b2b2), color-stop(100%,#e8e5e5)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #b2b2b2 0%,#e8e5e5 100%); /* W3C */
+  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, #b2b2b2; /* Old browsers */
+  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, -moz-linear-gradient(top,  #b2b2b2 0%, #e8e5e5 100%); /* FF3.6+ */
+  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b2b2b2), color-stop(100%,#e8e5e5)); /* Chrome,Safari4+ */
+  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, -webkit-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* Chrome10+,Safari5.1+ */
+  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, -o-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* Opera 11.10+ */
+  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, -ms-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* IE10+ */
+  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, linear-gradient(to bottom,  #b2b2b2 0%,#e8e5e5 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2b2b2', endColorstr='#e8e5e5',GradientType=0 ); /* IE6-9 */
-
+  background-size: 50%,100%;
 }
 
 .dado{
@@ -258,8 +263,8 @@ input[type="radio"]:checked+label.btn-respuesta:hover{
 }
 
 .dado img{
-  width: 64px;
-  height: 64px;
+  width: 59px;
+  height: 59px;
 }
 .habilitarDado{
   border-color: #CCFF00;
@@ -324,8 +329,8 @@ input[type="radio"]:checked+label.btn-respuesta:hover{
     width: 50px;
   }
   .dado img{
-    width: 38px;
-    height: 38px;
+    width: 28px;
+    height: 28px;
   }
   .valorDado{
     height: 40px;

@@ -1,0 +1,20 @@
+<div class="panel pregunta" ng-model="mostrarPanelPregunta" ng-show="mostrarPanelPregunta">
+  <form name="miFormulario" required ng-submit="onSubmit()">
+    <fieldset>
+     	<legend>Pregunta</legend>
+      	<p>{{atencionPregunta}}</p>
+      	<div class="control-group">
+        	<input type="radio" id="respuesta1" required name="respuesta" value="{{respuesta1}}" ng-model="respuesta"> 
+        	<label class="control-label btn btn-respuesta" for="respuesta1">{{respuesta1}}</label>
+      	</div>
+      	<div class="control-group">
+        	<input type="radio" id="respuesta2" required name="respuesta" value="{{respuesta2}}" ng-model="respuesta"> 
+        	<label class="control-label btn btn-respuesta" for="respuesta2">{{respuesta2}}</label>
+      	</div>
+      	<br>
+      	<button class="btn btn-primary pull-right" ng-disabled="!miFormulario.$valid" type="submit">Confirmar respuesta</button>
+      	<hr>
+      	<p class="respuestaElegida"><u><i>Ha elegido</i></u>: {{respuesta}}</p>
+    <fieldset>
+  </form>
+</div>
