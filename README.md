@@ -74,7 +74,3 @@ Los diferentes filtros se encargan de agregar clases a las etiquetas html en fun
 ## Componentes
 - En la carpeta partials se encuentran los componentes que forman la aplicación.
 - Para la creación de componentes se han utilizado las directivas de AngularJS.
-
-## JS Extra
-
-- Si la aplicación se abre por un dispositivo de Apple muestra una sugerencia para guardar la aplicación en el dispostivo.
