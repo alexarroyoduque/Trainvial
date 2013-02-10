@@ -71,10 +71,9 @@ Los diferentes filtros se encargan de agregar clases a las etiquetas html en fun
 - Además cuenta con unos estilos personalizados y es capaz de reconocer si la aplicación ha sido abierta con un dispositivo móvil o no. 
 - Se ha intentado respetar el responsive design en la medida de lo posible.
 
-## manifest.webapp
-- Agregando este manifest.webapp a Firefox OS podemos instalar la aplicación
-- En este fichero apunta a la aplicación que debe abrir, en este caso es index.html
-- Además agrega información como el nombre de la aplicación, icono...
+## Componentes
+- En la carpeta partials se encuentran los componentes que forman la aplicación.
+- Para la creación de componentes se han utilizado las directivas de AngularJS.
 
 ## JS Extra
 
