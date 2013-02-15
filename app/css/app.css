@@ -146,9 +146,6 @@
 
 .panel{
   border: 1px solid rgb(90, 42, 194);
-  box-shadow: inset 0px 0px 10px 1px rgb(215, 178, 233);
-  -webkit-box-shadow: inset 0px 0px 10px 1px rgb(215, 178, 233);
-  -moz-box-shadow: inset 0px 0px 10px 1px rgb(215, 178, 233);
   color: white;
   padding: 10px;
   margin-top: 2px;
@@ -170,7 +167,7 @@
 }
 .panel table{
   font-size:15px;
-} 
+}
 .panel p{
   font-size: 15px;
 }
@@ -188,10 +185,6 @@
   background: -ms-linear-gradient(top,  #1d8e78 0%,#30b58f 100%); /* IE10+ */
   background: linear-gradient(to bottom,  #1d8e78 0%,#30b58f 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d8e78', endColorstr='#30b58f',GradientType=0 ); /* IE6-9 */
-
-  box-shadow: inset 0px 0px 10px 1px rgb(10, 97, 66);
-  -webkit-box-shadow: inset 0px 0px 10px 1px rgb(10, 97, 66);
-  -moz-box-shadow: inset 0px 0px 10px 1px rgb(10, 97, 66);
 }
 
 .respuestaElegida{
@@ -218,7 +211,7 @@ input[type="radio"]:checked+label.btn-respuesta{
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fbb450', endColorstr='#f89406', GradientType=0);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
-} 
+}
 
 input[type="radio"]:checked+label.btn-respuesta:hover{
   background-color: #f89406;
@@ -365,7 +358,6 @@ input[type="radio"]:checked+label.btn-respuesta:hover{
   .tableroContenedor{
     margin-top: 5px;
     margin-bottom: 0px;
-   
     background: url('../img/trainvial/tablero-fondo.png') left top;
     width: 280px;
     background-size: 100%;
