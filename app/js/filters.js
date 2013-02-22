@@ -50,17 +50,17 @@
     function resultadoFilter() {
         return function (inputResultado) {
             if (inputResultado === "Acierto") {
-                return ' img/trainvial/resultado-acierto.png';
+                return 'img/trainvial/resultado-acierto.png';
             } else if (inputResultado === "Fallo") {
-                return ' img/trainvial/resultado-fallo.png';
+                return 'img/trainvial/resultado-fallo.png';
             } else if (inputResultado === "esperando") {
-                return ' img/trainvial/resultado-interrogacion.png';
+                return 'img/trainvial/resultado-interrogacion.png';
             } else if (inputResultado === "Completado") {
-                return ' img/trainvial/resultado-completo.png';
+                return 'img/trainvial/resultado-completo.png';
             } else if (inputResultado === "Lance el dado") {
-                return ' img/trainvial/resultado-mano.png';
+                return 'img/trainvial/resultado-mano.png';
             } else {
-                return ' img/trainvial/resultado-interrogacion.png';
+                return 'img/trainvial/resultado-interrogacion.png';
             }
         };
     }
@@ -70,13 +70,13 @@
     function valorDadoFilter() {
         return function (inputValorDado) {
             if (inputValorDado === 1) {
-                return ' img/trainvial/valor-dado1.png';
+                return 'img/trainvial/valor-dado1.png';
             } else if (inputValorDado === 2) {
-                return ' img/trainvial/valor-dado2.png';
+                return 'img/trainvial/valor-dado2.png';
             } else if (inputValorDado === 3) {
-                return ' img/trainvial/valor-dado3.png';
+                return 'img/trainvial/valor-dado3.png';
             } else {
-                return ' img/trainvial/dado.png';
+                return 'img/trainvial/dado.png';
             }
         };
     }
@@ -98,15 +98,15 @@
     function mensajeFilter() {
         return function (inputMensaje) {
             if (inputMensaje === 'Lance el dado') {
-                return ' img/trainvial/mensaje-dado.png';
+                return 'img/trainvial/mensaje-dado.png';
             } else if (inputMensaje === 'Responda a la pregunta') {
-                return ' img/trainvial/mensaje-reloj.png';
+                return 'img/trainvial/mensaje-reloj.png';
             } else if (inputMensaje === 'esperando') {
-                return ' img/trainvial/mensaje-reloj.png';
+                return 'img/trainvial/mensaje-reloj.png';
             } else if (inputMensaje === 'Completado') {
-                return ' img/trainvial/mensaje-trofeo.png';
+                return 'img/trainvial/mensaje-trofeo.png';
             } else {
-                return ' img/trainvial/mensaje.png';
+                return 'img/trainvial/mensaje.png';
             }
         };
     }

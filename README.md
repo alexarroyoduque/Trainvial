@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Este proyecto contiene una aplicación construída con AngularJS para probar y conocer su funcionamiento. 
+Este proyecto contiene una aplicación construída con AngularJS para probar y conocer su funcionamiento.
 Se trata de un juego de tablero de preguntas y respuestas.
 Se usan aspectos básicos de Angular como módulos, controladores y filtros.
 
@@ -20,6 +20,10 @@ Para poder disfrutar de la aplicación es necesario hacerlo desde un servidor, e
  - Para usar este web-server.js es necesario instalar nodejs en el equipo.
  - Tras instalar node se puede ejecutar el web-server.js desde la carpeta del repositorio "node scripts/web-script.js"
  - Ahora escribiendo en el navegador "localhost:8000/app/index.html" se debería visualizar la aplicación.
+
+## Ejecutar test
+Hasta el momento solo se incluyen los test para los filtros.
+- Para ejecutar los test desde la raíz del proyecto ejecutar por línea de comandos "./script/test.sh"
 
 
 ## Funcionamiento
