@@ -235,13 +235,13 @@ input[type="radio"]:checked+label.btn-respuesta:hover{
 
 .panel.panelDesarrollador{
   color:#583860;
-  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, #b2b2b2; /* Old browsers */
-  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, -moz-linear-gradient(top,  #b2b2b2 0%, #e8e5e5 100%); /* FF3.6+ */
-  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b2b2b2), color-stop(100%,#e8e5e5)); /* Chrome,Safari4+ */
-  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, -webkit-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* Chrome10+,Safari5.1+ */
-  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, -o-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* Opera 11.10+ */
-  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, -ms-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* IE10+ */
-  background: url('../img/logo-corporativo/logo-lince.png') no-repeat right top, linear-gradient(to bottom,  #b2b2b2 0%,#e8e5e5 100%); /* W3C */
+  background: url('../img/logo-corporativo/logo-kanji_arroyo.png') no-repeat right top, #b2b2b2; /* Old browsers */
+  background: url('../img/logo-corporativo/logo-kanji_arroyo.png') no-repeat right top, -moz-linear-gradient(top,  #b2b2b2 0%, #e8e5e5 100%); /* FF3.6+ */
+  background: url('../img/logo-corporativo/logo-kanji_arroyo.png') no-repeat right top, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b2b2b2), color-stop(100%,#e8e5e5)); /* Chrome,Safari4+ */
+  background: url('../img/logo-corporativo/logo-kanji_arroyo.png') no-repeat right top, -webkit-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* Chrome10+,Safari5.1+ */
+  background: url('../img/logo-corporativo/logo-kanji_arroyo.png') no-repeat right top, -o-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* Opera 11.10+ */
+  background: url('../img/logo-corporativo/logo-kanji_arroyo.png') no-repeat right top, -ms-linear-gradient(top,  #b2b2b2 0%,#e8e5e5 100%); /* IE10+ */
+  background: url('../img/logo-corporativo/logo-kanji_arroyo.png') no-repeat right top, linear-gradient(to bottom,  #b2b2b2 0%,#e8e5e5 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2b2b2', endColorstr='#e8e5e5',GradientType=0 ); /* IE6-9 */
   background-size: 20%,100%;
 }
